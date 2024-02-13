@@ -1,3 +1,23 @@
+body{
+    background-color:#2E1462!important;
+}
+
+.container{
+    background-color: #F6F6F6;
+    border-radius: 10px;
+}
+
+.imglogin img{
+    width: 95px;
+    display: block;
+    margin: auto;
+    margin-top: -45px;
+    border:#F6F6F6 1px solid;
+    border-radius: 15px;
+    padding: 1px;
+    background-color: #F6F6F6;
+}
+
 .flex {
     display: flex;
 }

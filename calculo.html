@@ -10,33 +10,31 @@
     <title>IMC</title>
 </head>
 
-<body>
+<body style="background-color:#f6f6f6!important;">
     <div class="container mt-5">
         <div class="row imglogin">
             <img src="/assets/icon-no-bg.png"/>
         </div>
         <div class="row pt-2">
-           <h2 class="text-center">Faça seu Login</h2>
-           <p class="text-center">Insira suas informações antes de medir seu IMC</p>
+           <h2 class="text-center">Cálculo de IMC</h2>           
         </div>
         <div class="row col-12">
             <div class="mb-3">                
-                <input type="text" class="form-control" id="iemail" placeholder="Seu e-mail">
-             <div>
-            <div class="pt-3">                
-                <input type="text" class="form-control" id="isenha" placeholder="Sua senha">
-            <div>
-                <div class="form-check mt-3">
-                    <input class="form-check-input" type="checkbox" id="gridCheck">
-                    <label class="form-check-label" for="gridCheck">
-                      Não sou um robô
-                    </label>
-                  </div>
+                <input type="text" class="form-control" id="ialtura" placeholder="Altura">
+                <input type="text" class="form-control mt-2" id="ipeso" placeholder="Peso">
+                <input type="text" class="form-control mt-2" id="isexo" placeholder="Sexo">
+             <div>           
+            <div class="form-check mt-3">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Eu tenho 65 anos ou mais
+                </label>
+            </div>
         </div>         
         <div class="row mt-3">
             <div class="d-grid gap-2">
-                <button class="btn btn-info" type="button">Fazer Login</button>
-                <button class="btn btn-outline-info" type="button">Não tenho acesso</button>
+                <button class="btn btn-info" type="button">Calcular meu IMC</button>
+                <button class="btn btn-outline-info" type="button">Entenda o cálculo</button>
             </div>                           
         </div>
     </div>
